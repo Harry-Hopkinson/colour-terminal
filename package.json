@@ -1,0 +1,25 @@
+{
+  "name": "color-terminal",
+  "version": "1.0.0",
+  "description": "A NPM Package that brings Color to your Terminal.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist/ && tsc && tsc -p tsconfig.module.json && tsc -p tsconfig.esm.json && node src/post-build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harry-Hopkinson/color-terminal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harry-Hopkinson/color-terminal/issues"
+  },
+  "homepage": "https://github.com/Harry-Hopkinson/color-terminal#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.3"
+  }
+}
