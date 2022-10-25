@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Harry-Hopkinson/color-terminal#readme",
   "devDependencies": {
-    "@types/node": "^18.7.18",
+    "@types/node": "18.11.5",
     "path": "^0.12.7",
     "rimraf": "^3.0.2",
     "typescript": "^4.8.3"
